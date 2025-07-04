@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+# 🛡️ SafeSister – Sister in Safety Net
 
-## Project info
+**Visual Representation** https://safesister.netlify.app/
 
-**URL**: https://lovable.dev/projects/3050dc6a-dc26-4d70-b7cf-a5abbb9ac1ef
+**SafeSister** is an AI-powered, web-based safety app designed to help women discreetly signal distress through a panic button or voice activation. Built with TypeScript, HTML/CSS, and Python, it combines a responsive UI with voice keyword detection to act quickly in emergencies — especially for women in Kenya and similar regions.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 💡 Project Summary
 
-**Use Lovable**
+SafeSister is a lightweight, mobile-friendly safety solution featuring:
+- A panic alert button
+- Voice-activated distress word detection using AI
+- A clean and accessible web interface
+- Scalable features for SMS/email alerts and real-time tracking
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3050dc6a-dc26-4d70-b7cf-a5abbb9ac1ef) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🌍 Problem
 
-**Use your preferred IDE**
+Many women face safety threats in public and private spaces. Most safety apps are complex, heavy on data, or unreliable during actual emergencies. SafeSister solves this by offering a fast, accessible tool made for Kenyan women — usable even under pressure or poor connectivity.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🔐 Key Features
 
-Follow these steps:
+- 🚨 One-tap panic button
+- 🎙️ AI-powered voice detection of distress words like “help”, “stop”, etc.
+- 📱 Mobile-first HTML/CSS UI
+- 🧠 Lightweight AI script (Python)
+- 🌐 Planned expansion: SMS/email alerts, location sharing
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+| Layer           | Technology                        |
+|------------------|------------------------------------|
+| UI / Frontend    | HTML, CSS                         |
+| Scripting        | TypeScript (`index.ts`)           |
+| AI / Voice       | Python, SpeechRecognition         |
+| Package Manager  | Node.js (`package.json`, `.lock`) |
+| Planned Backend  | Flask API + Twilio (future work)  |
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🧠 How the AI Works
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The `ai_voice_monitor.py` script listens through your microphone for emergency keywords and prints alerts to the terminal. You can expand it to send real-time messages via SMS or email.
 
-**Use GitHub Codespaces**
+### 🔄 Run it locally:
+```bash
+pip install SpeechRecognition pyaudio
+python ai_voice_monitor.py
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+** 🚀 How to Use
+Clone the repo
+git clone https://github.com/KeruboNancy/sister-in-safety-net.git
+cd sister-in-safety-net
+Install Python AI dependencies
+pip install SpeechRecognition pyaudio
+Run AI script
 
-## What technologies are used for this project?
+bash
+Copy
+Edit
+python ai_voice_monitor.py
+Open the UI
 
-This project is built with:
+Open index.html in your browser to access the panic button interface.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3050dc6a-dc26-4d70-b7cf-a5abbb9ac1ef) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Future JavaScript/TypeScript features will enhance interactivity.
