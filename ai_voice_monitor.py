@@ -11,7 +11,6 @@ import speech_recognition as sr
 english_keywords = ['help', 'stop', 'no', 'afraid', 'pain', 'robbery', 'emergency']
 
 # Kiswahili distress keywords (based on common phrases used in distress)
-# Kiswahili distress keywords (based on common phrases used in distress)
 kiswahili_keywords = [
     'saidia',     # help
     'acha',       # stop
