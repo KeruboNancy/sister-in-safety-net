@@ -1,6 +1,7 @@
 # 🛡️ SafeSister – Sister in Safety Net
 
 **Visual Representation** https://safesister.netlify.app/
+
 **Pitchdeck Presentation**https://www.canva.com/design/DAGtbopMWuA/ww6MpcGD6K3wj2DZHPumAg/view?utm_content=DAGtbopMWuA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h23b0c80328
 
 **SafeSister** is an AI-powered, web-based safety app designed to help women discreetly signal distress through a panic button or voice activation. Built with TypeScript, HTML/CSS, and Python, it combines a responsive UI with voice keyword detection to act quickly in emergencies-especially for women in Kenya and similar regions.
